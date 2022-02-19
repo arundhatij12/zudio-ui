@@ -87,19 +87,19 @@ h1{
 }
 
 #alert1{
-   width: 270px;
+   
     background-color: rgb(153, 201, 245);
     color: #000;
 }
 
 #alert2{
-    width: 270px;
+    
      background-color: rgb(247, 27, 27);
-     color: rgb(158, 26, 26);
+     color:white;
  }
 
  #alert3{
-    width: 270px;
+    
      color: rgb(241, 239, 67);
      color: yellowgreen;
  }

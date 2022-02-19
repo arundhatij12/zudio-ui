@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(235, 227, 227);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    background-color: rgba(114, 195, 202, 0.575);
+    height: 80px;
+}
+
+.head{
+    display: flex;
+  padding: 32px 6px;
+}
+
+.title{
+    color: rgb(235, 114, 134);
+    text-decoration: none;
+}
+
+.title:hover{
+    color: rgb(56, 194, 187);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 240px;
+    flex-wrap: wrap;
+    background-color: rgb(235, 227, 227);
+    height: 540px;
+    margin-top: 50px;
+}
+
+.content1{
+    background-color: rgb(235, 227, 227);
+    margin-left: 115px;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.list1{
+    list-style: none;
+}
+
+.sub{
+    padding: 3px;
+}
+
+.item{
+    display: flex;
+    padding: 13px 36px;
+}
+
+.content2{
+    display: flex;
+    padding: 8px;
+    width: 800px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 227, 227);
+}
+
+
+.head1{
+    display: flex;
+  padding: 32px 6px;
+}
+
+h1{
+margin-top: -140px;
+margin-left: 17px;
+   
+}
+
+
+
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px;
+   width: 38%;
+    height: 120px;
+    background-color: rgba(63, 91, 94, 0.575);
+    border: 1.5px solid rgb(22, 18, 18);
+}
+
+.avatar{
+    
+    width: 38%;
+    height: 83%;
+    border-radius: 61%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#avatar1{
+    
+    background-image: url("https://st2.depositphotos.com/1006318/5909/v/950/depositphotos_59095529-stock-illustration-profile-icon-male-avatar.jpg");
+}
+
+#avatar2{
+    background-image: url("https://www.pngall.com/wp-content/uploads/5/Profile-Avatar-PNG.png");
+}
+
+#avatar3{
+    background-image: url("https://p7.hiclipart.com/preview/129/94/328/computer-icons-avatar-icon-design-male-teacher.jpg");
+}
+
+.foo{
+    margin-top: 83px;
+    padding: 30px;
+    background-color: rgba(40, 82, 85, 0.575);
+}
+
+.foo-links{
+    text-decoration: none;
+}
+
+
+.--list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.items{
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(236, 245, 245);
+}
+
+.links{
+    text-decoration: none;
+}

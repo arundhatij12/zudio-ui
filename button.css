@@ -1,0 +1,170 @@
+body {
+  background: linear-gradient(to bottom, #66ffcc 0%, #66ccff 105%);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  background-color: rgba(114, 195, 202, 0.575);
+  height: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: #3d6dc5;
+}
+
+#item {
+  color: aliceblue;
+}
+
+@media screen and (max-width: 1129px) {
+  .content1 {
+    display: none;
+  }
+}
+
+.head {
+  display: flex;
+  padding: 32px 6px;
+}
+
+.title {
+  color: rgb(235, 114, 134);
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex: 0 0 240px;
+  flex-wrap: wrap;
+  height: max-content;
+  margin-top: 50px;
+}
+
+.content1 {
+  margin-left: 115px;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+  padding: 13px 36px;
+}
+
+.item:hover {
+  background-color: #a5ddca;
+}
+
+.list1 {
+  list-style: none;
+}
+
+.sub {
+  padding: 3px;
+}
+
+.content2 {
+  display: flex;
+  margin-top: -150px;
+  gap: 10px;
+  padding: 3px;
+  width: 800px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-code {
+  height: 8rem;
+  width: 38rem;
+}
+
+.head1 {
+  display: flex;
+  padding: 3px 6px;
+}
+
+.sec {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: max-content;
+  height: max-content;
+  background-color: rgb(150, 138, 138);
+  border: 1.5px solid rgb(22, 18, 18);
+}
+
+.btn {
+  height: 36px;
+  width: 136px;
+  background-color: rgb(89, 131, 134);
+  border-radius: 0.5rem;
+}
+
+.btn:hover {
+  background-color: rgba(190, 229, 153, 0.767);
+}
+
+.tab {
+  position: relative;
+  top: 40px;
+  gap: 13px;
+  display: flex;
+  justify-content: center;
+}
+
+.tab button {
+  font-weight: bold;
+  background-color: rgb(156, 146, 146);
+  color: #3d6dc5;
+  height: 2.5rem;
+  width: 8rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.tab button:hover {
+  background-color: rgb(135, 164, 189);
+}
+
+@media screen and (min-width: 1129px) {
+  .tab {
+    display: none;
+  }
+}
+
+.foo {
+  margin-top: 123px;
+  padding: 30px;
+  background-color: rgba(40, 82, 85, 0.575);
+}
+
+.foo-links {
+  text-decoration: none;
+}
+
+.--list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.items {
+  padding: 10px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(236, 245, 245);
+}
+
+.links {
+  text-decoration: none;
+}
